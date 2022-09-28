@@ -1,0 +1,63 @@
+[
+  {
+    "tittleName": "Exercise Bike",
+    "requered-time": "20",
+    "discription": "Riding a stationary exercise bike is an efficient and effective way to burn calories and body fat while strengthening your heart, lungs, and muscles.",
+    "ageRange": "18-50",
+    "img": "https://pyxis.nymag.com/v1/imgs/4ad/9df/e584f33dfc288590ddee772855ad4d7e3f-schwinn-ic3-bike.2x.rsquare.w600.jpg",
+    "id": 1
+  },
+  {
+    "tittleName": "Treadmills",
+    "requeredTime": "60",
+    "discription": "As a form of cardio exercise, using a treadmill is an excellent way of burning calories and losing weight",
+    "ageRange": "18-40",
+    "img": "https://static.sportzbusiness.com/uploads/2020/05/Treadmill-workout.jpg",
+    "id": 2
+  },
+  {
+    "tittleName": "Barbell",
+    "requeredTime": "30",
+    "discription": "The barbell row is a great way to develop a strong upper body and add size to your back.",
+    "ageRange": "18-50",
+    "img": "https://cdn2.stylecraze.com/wp-content/uploads/2022/01/Barbell-Exercises-For-Women-To-Shed-Fat-And-Tone-Up.jpg",
+    "id": 3
+  },
+  {
+    "tittleName": "Hand Grippers",
+    "requeredTime": "120",
+    "discription": "Regular exercise with a grip strengthener will increase the strength of your forearms and wrists.",
+    "ageRange": "18-50",
+    "img": "https://static-01.daraz.pk/original/9576f931114a40af33b589b3cd64ed92.jpg",
+    "id": 4
+  },
+  {
+    "tittleName": "Weight Plate",
+    "requeredTime": "30",
+    "discription": "The plate press is a great workout that helps you isolate your chest and shoulder muscles effectively.",
+    "ageRange": "18-30",
+    "img": "https://media.self.com/photos/57dc17f06f1b1dac12e5b4e1/master/w_382,h_410,c_limit/weight-plate-routine-squat.jpg",
+    "id": 5
+  },
+  {
+    "tittleName": "Exercise Roller",
+    "requeredTime": "50",
+    "discription": "Foam rolling releases muscle knots, relieves inflammation, and improves overall comfort.",
+    "ageRange": "18-60",
+    "img": "https://bodybuilding-wizard.com/wp-content/uploads/2019/10/foam-rolling-glutes-maximus.jpg",
+    "id": 6
+  }
+   
+]
+
+
+
+
+
+
+
+
+
+
+
+
