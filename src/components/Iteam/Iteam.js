@@ -6,7 +6,7 @@ const Iteam = ({ iteam }) => {
     console.log(iteam);
     return (
         <div>
-            <div className="card md:w-96 lg:w-96 h-full bg-sky-100 shadow-xl">
+            <div className="card md:w-full lg:w-96 bg-white  shadow-2xl">
                 <figure className="px-4 pt-4">
                     <img src={img} alt="Shoes" className=" h-52 rounded-xl" />
                 </figure>
@@ -16,7 +16,7 @@ const Iteam = ({ iteam }) => {
                     <small>Age Range: {ageRange}</small>
                     <p className='font-bold'>Requeried Time: {requeredTime}s</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary w-full">Add To Cart List</button>
+                        <button className="btn bg-rose-700 w-full">Add To Cart List</button>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Header = () => {
             <img src={logo} alt="" /> <strong>Gym Fitness</strong>
 
             </div>
-            <ul>
+            <ul className='control-header'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Your Activety</a></li>

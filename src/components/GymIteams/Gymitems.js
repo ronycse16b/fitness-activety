@@ -19,10 +19,10 @@ const Gymitems = () => {
 
 
     return (
-        <div className='main-container'>
+        <div className='main-container grid md:grid-flow-col   '>
             <div>
-                      <h1 className='pl-20 mt-5 mb-5 text-2xl '> Select Your Best Choise!</h1>
-                <div className="left-items">
+                      <h1 className='pl-20 mt-5 mb-5 text-2xl  md'> Select Your Best Choise!</h1>
+                <div className="left-items grid xl:grid-cols-3 gap-8 sm:p-0">
 
                     {
                         GymIteams.map(iteam => <Iteam iteam={iteam}></Iteam>)
@@ -30,7 +30,7 @@ const Gymitems = () => {
 
                 </div>
             </div>
-            <div className="right-activety bg-slate-100">
+            <div className="right-activety bg-white mt-8 ">
 
                 <Activety ></Activety>
 

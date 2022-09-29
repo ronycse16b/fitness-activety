@@ -1,14 +1,9 @@
 .main-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    height: 100vh auto;
-    width: 100% auto;
+ 
 }
 .left-items{
-    padding: 10px 80px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
+
+ 
     
     
 }

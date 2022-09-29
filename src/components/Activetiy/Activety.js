@@ -16,47 +16,47 @@ const Activety = () => {
             </div>
 
             <div className="profile-other-info flex bg-slate-300 pt-5 pb-5 m-5 rounded-lg">
-                <h2 className=' ml-5'>Weight:<span>62 kg</span></h2>
+                <h2 className=' ml-5 font-bold'>Weight:<span>62 kg</span></h2>
 
-                <h2 className=' ml-5'>Height: <span>5'5" Fit</span></h2>
-                <h2 className=' ml-5'><span> Age : 25</span></h2>
+                <h2 className=' ml-5 font-bold'>Height: <span>5'5" Fit</span></h2>
+                <h2 className=' ml-5 font-bold' ><span> Age : 25</span></h2>
              
 
 
             </div>
 
             <div className="add-break">
-                 <h1>Add Break</h1>
-                 <div className="break-time-container flex  bg-slate-300 pt-5 pb-5 m-5 rounded-lg">
-                      <h1 className='rounded-full h-12 bg-white ml-3 p-3'>10s</h1>
-                      <h1 className='rounded-full h-12 bg-white ml-3 p-3'>20s</h1>
-                      <h1 className='rounded-full h-12 bg-white ml-3 p-3'>30s</h1>
-                      <h1 className='rounded-full h-12 bg-white ml-3 p-3'>40s</h1>
-                      <h1 className='rounded-full h-12 bg-white ml-3 p-3'>50s</h1>
+                 <h1 className='ml-5 font-bold'>Add A Break:</h1>
+                 <div className="break-time-container flex  bg-slate-300 pt-5 pb-5 m-5 rounded-lg ">
+                      <button className='hover:bg-rose-700 hover:text-white   rounded-full h-12 bg-white ml-3 p-3'>10s</button>
+                      <button className='hover:bg-rose-700 hover:text-white rounded-full h-12 bg-white ml-3 p-3'>20s</button>
+                      <button className='hover:bg-rose-700 hover:text-white rounded-full h-12 bg-white ml-3 p-3'>30s</button>
+                      <button className='hover:bg-rose-700 hover:text-white rounded-full h-12 bg-white ml-3 p-3'>40s</button>
+                      <button className='hover:bg-rose-700 hover:text-white rounded-full h-12 bg-white ml-3 p-3'>50s</button>
                  </div>
 
             </div>
-            <div className="excersise-details">
-                 <h1>Excersise Details:</h1>
-                 <div className="break-time-container   bg-slate-300 pt-5 pb-5 m-5 rounded-lg flex items-center">
+            <div className="excersise-details font-bold">
+                 <h1 className='ml-5 font-bold'>Exercise Details:</h1>
+                 <div className="break-time-container justify-between  bg-slate-300 pt-5 pb-5 m-5 rounded-lg flex items-center">
                      
-                      <h1 className=' ml-3 p-3'>Excersise Time </h1>
-                      <h1 className=' ml-10 '>40s</h1>
+                      <h1 className=' ml-3 p-3'>Exercise time </h1>
+                      <h1 className=' ml-10 pr-5 '>40s</h1>
                      
                  </div>
 
             </div>
             <div className="Breack-Time">
                  
-                 <div className="break-time-container   bg-slate-300 pt-5 pb-5 m-5 rounded-lg flex items-center">
+                 <div className="break-time-container justify-between  bg-slate-300 pt-5 pb-5 m-5 rounded-lg flex items-center font-bold">
                      
-                      <h1 className=' ml-3 p-3'>Break Time </h1>
-                      <h1 className=' ml-10 '>40s</h1>
+                      <h1 className=' ml-3 p-3'>Break time </h1>
+                      <h1 className=' ml-10 pr-5 '>40s</h1>
                      
                  </div>
 
             </div>
-            <button className="btn btn-primary w-96 m-5">Activity Completed</button>
+            <button className="btn bg-rose-700 w-96 m-5">Activity Completed</button>
 
         </div>
     );
