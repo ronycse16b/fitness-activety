@@ -1,0 +1,9 @@
+.profile-info{
+    display: flex;
+    margin: 20px;
+}
+.img img{
+    width: 60px;
+    height: 80%;
+    border-radius: 50%;
+}

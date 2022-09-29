@@ -30,7 +30,7 @@ const Gymitems = () => {
 
                 </div>
             </div>
-            <div className="right-activety bg-slate-400">
+            <div className="right-activety bg-slate-100">
 
                 <Activety ></Activety>
 
