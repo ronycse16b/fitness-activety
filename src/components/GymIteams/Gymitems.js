@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Gymitems.css'
 import Iteam from '../Iteam/Iteam';
 import Activety from '../Activetiy/Activety';
+import QA from './QuestionAnswer/QA';
 
 const Gymitems = () => {
     const [GymIteams, setGymitems] = useState([]);
@@ -21,7 +22,7 @@ const Gymitems = () => {
 
     const handelButtonClick = (items)=>{
       
-        console.log(items);
+    
     const newCart = [...timeShowFromCart,items]
       setTimeCart(newCart)
     }
@@ -36,8 +37,9 @@ const Gymitems = () => {
                     {
                         GymIteams.map(iteam => <Iteam iteam={iteam} key={iteam.id} handelButtonClick={handelButtonClick}></Iteam>)
                     }
-
+        
                 </div>
+                <QA></QA>
             </div>
             <div className="right-activety bg-white mt-20 ">
 
