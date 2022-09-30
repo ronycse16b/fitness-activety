@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Activety = ({ timeShowFromCart }) => {
 
-
+// alert function call 
     const notify = () =>  toast.success("Success ! Your Activety completed !", {
         position: toast.POSITION.TOP_CENTER
       });;
