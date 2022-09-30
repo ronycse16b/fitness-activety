@@ -6,6 +6,8 @@ import Activety from '../Activetiy/Activety';
 const Gymitems = () => {
     const [GymIteams, setGymitems] = useState([]);
     const [timeShowFromCart, setTimeCart] = useState([]);
+//  console.log(timeShowFromCart);
+
 
     useEffect(() => {
 
@@ -17,9 +19,11 @@ const Gymitems = () => {
 
     }, [])
 
-    const handelButtonClick = (cartTime)=>{
-        setTimeCart(cartTime)
-        console.log(timeShowFromCart);
+    const handelButtonClick = (items)=>{
+      
+        console.log(items);
+    const newCart = [...timeShowFromCart,items]
+      setTimeCart(newCart)
     }
     
 
