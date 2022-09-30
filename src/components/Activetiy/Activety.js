@@ -2,10 +2,14 @@ import { click } from '@testing-library/user-event/dist/click';
 import React, { useEffect, useState } from 'react';
 import profile from '../../image/RonyFormal.jpg';
 import './Activety.css';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Activety = ({ timeShowFromCart }) => {
 
 
+    const notify = () =>  toast.success("Success ! Your Activety completed !", {
+        position: toast.POSITION.TOP_CENTER
+      });;
 
     const [time, setTime] = useState([JSON.parse(localStorage.getItem('time'))])
     // 
@@ -90,9 +94,10 @@ const Activety = ({ timeShowFromCart }) => {
                 </div>
 
             </div>
-            <button className="btn bg-rose-700  m-5 ">Activity Completed</button>
-
+            <button onClick={notify} className="btn bg-rose-700  m-5 ">Activity Completed</button>
+            <ToastContainer />
         </div>
+        
     );
 };
 
