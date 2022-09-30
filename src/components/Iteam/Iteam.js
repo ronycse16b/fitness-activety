@@ -1,9 +1,12 @@
 import React from 'react';
 import './iteam.css';
 
-const Iteam = ({ iteam }) => {
-    const {id,tittleName,requeredTime,discription,ageRange,img} = iteam;
-    console.log(iteam);
+const Iteam = ({ iteam ,handelButtonClick}) => {
+    const {id ,tittleName,requeredTime,discription,ageRange,img} = iteam;
+
+
+
+
     return (
         <div>
             <div className="card md:w-full lg:w-96 bg-white  shadow-2xl">
@@ -16,7 +19,7 @@ const Iteam = ({ iteam }) => {
                     <small>Age Range: {ageRange}</small>
                     <p className='font-bold'>Requeried Time: {requeredTime}s</p>
                     <div className="card-actions">
-                        <button className="btn bg-rose-700 w-full">Add To Cart List</button>
+                        <button onClick={ ()=>handelButtonClick(requeredTime) } className="btn bg-rose-700 w-full">Add To Cart List</button>
                     </div>
                 </div>
             </div>

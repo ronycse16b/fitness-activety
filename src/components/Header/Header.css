@@ -39,8 +39,17 @@ transition: 0.5s;
 }
 
 
-@media(max-width:768px){
+@media(max-width:668px){
 .control-header{
     display: none;
 }
+
 }    
+/* @media(max-width:400px){
+.control-header{
+    display: none;
+}
+.header-container{
+    width: 122%;
+}
+}   */
