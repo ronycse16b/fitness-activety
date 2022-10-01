@@ -2,7 +2,7 @@ import React from 'react';
 import './iteam.css';
 
 const Iteam = (props) => {
-    const {id ,tittleName,requeredTime,discription,ageRange,img} = props.iteam;
+    const {tittleName,requeredTime,discription,ageRange,img} = props.iteam;
     const {handelButtonClick} = props;
 
 

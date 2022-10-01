@@ -12,7 +12,9 @@ const Activety = ({ timeShowFromCart }) => {
       });;
 
     const [time, setTime] = useState([JSON.parse(localStorage.getItem('time'))])
+
     // 
+    
     const handleBreakTime = (event) => {
         const timer = event.target.innerText;
 
@@ -27,6 +29,8 @@ const Activety = ({ timeShowFromCart }) => {
 
     }
 
+    
+
     // Grand Total Time Claculate 
     let GrandTotalTime = 0;
     for (const totalTime of timeShowFromCart) {
@@ -36,6 +40,7 @@ const Activety = ({ timeShowFromCart }) => {
         const minute = Math.floor(GrandTotalTime / 60);
         const rest_seconds = GrandTotalTime % 60;
         var GrandTotalTimeShow = minute + " minutes " + rest_seconds + " sec.";
+        document.getElementById('xy').innerText = GrandTotalTimeShow;
 
     }
 
@@ -78,7 +83,7 @@ const Activety = ({ timeShowFromCart }) => {
                 <div className="break-time-container justify-between  bg-slate-300 pt-5 pb-5 m-5 rounded-lg flex items-center">
 
                     <h1 className=' ml-3 p-3'>Exercise time </h1>
-                    <h1 className=' ml-10 pr-5 '>{GrandTotalTimeShow}</h1>
+                    <h1 id='xy' className=' ml-10 pr-5 '>0 Minutes 0 Sec</h1>
 
                 </div>
 
